@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard {
+  background: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.form-group, form {
+  margin-bottom: 15px;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
